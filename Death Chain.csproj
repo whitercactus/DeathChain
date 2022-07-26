@@ -1,0 +1,13 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>DeathChain</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Your dll file name">
+      <HintPath>RiptideNetworking.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+  </ItemGroup>
+</Project>
