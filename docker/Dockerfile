@@ -3,7 +3,7 @@ FROM alpine:latest
 # Environment Variables
 ENV GODOT_VERSION "3.4.4"
 ENV GODOT_EXPORT_PRESET="Linux/X11"
-ENV GODOT_GAME_NAME "Death Chain"
+ENV GODOT_GAME_NAME "DeathChain"
 ENV HTTPS_GIT_REPO "https://github.com/whitercactus/DeathChain.git"
 
 # Updates and installs to the server
